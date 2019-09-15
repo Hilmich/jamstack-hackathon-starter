@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
             justifyContent: "space-between",
           }}
         >
-          <div>
+          <div>            
             <p>
               Welcome to your new Gatsby + Netlify Functions + Netlify Identity
               site

@@ -1,5 +1,5 @@
 // TODO: dear user, please change this to your own instance
-const netlifyInstance = "https://jamstack-hackathon-starter.netlify.com"
+const netlifyInstance = "https://confident-rosalind-e6d474.netlify.com"
 if (netlifyInstance === "https://jamstack-hackathon-starter.netlify.com") {
   console.warn(`
 
@@ -26,6 +26,7 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/app/*`] },
